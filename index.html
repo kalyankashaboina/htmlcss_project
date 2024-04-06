@@ -1,388 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            list-style: none;
-        }
-       
-        /* .bodydiv{
-          overflow: hidden;
-        } */
-        nav {
-            display: flex;
-            justify-content: space-around;
-            padding: 30px;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        h4 {
-            text-align: center;
-        }
-
-        .child {
-            display: flex;
-            gap: 35px;
-            padding: 30px;
-
-        }
-
-        .parent {
-            padding: 70px;
-            overflow: hidden;
-
-        }
-
-        img {
-            height: 60vh;
-        }
+    <title>Food Website</title>
+<link rel="stylesheet" href="./style.css">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
 
-
-
-        .one {
-            text-align: justify;
-            font-size: 15px;
-            line-height: 1.5;
-            margin: 10px;
-        }
-
-        .two {
-            text-align: center;
-            font-family: "Karma", sans-serif;
-            font-size: 15px;
-            line-height: 1.5;
-            margin: 10px;
-        }
-
-        .pagination {
-
-            position: relative;
-            left: 400px;
-            top: 20px;
-            padding: 20px
-        }
-
-        .pagination a {
-            color: red;
-            float: left;
-            padding: 8px 16px;
-            text-decoration: none;
-
-
-        }
-
-        a:hover {
-            background-color: aqua;
-        }
-
-        .parent3 {
-            width: 80vw;
-            border-top: 1px solid grey;
-            border-bottom: 1px solid grey;
-            padding-top: 40px;
-            padding-bottom: 90px;
-        }
-
-        .parent2 {
-            display: flex;
-            justify-content: center;
-    
-        }
-
-        .child2,
-        .child3,
-        .child4,
-        .child5,
-        .child6,
-        .child7 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .child2>img {
-            width: 52vw;
-            height: 72vh;
-        }
-
-        .child5 {
-            text-align: center;
-        }
-
-
-        .parent4 {
-            display: flex;
-            gap: 10px;
-        }
-        .parent5{
-            width:80vw;
-            position: relative;
-            left:5vw;
-        }
-
-
-        .hari>img {
-            width: 40px;
-            height: 40px;
-
-        }
-
-        .hari {
-            display: flex;
-
-        }
-
-        .hari2 {
-            display: flex;
-        }
-
-        .hari2>img {
-            width: 40px;
-            height: 40px;
-
-        }
-
-        .nani button {
-            background-color: gray;
-            color: white;
-            margin-top: 30px;
-        }
-    </style>
 </head>
-
 <body>
-   
+
+
+
+<section>
     <nav>
-        <div>MENU</div>
-        <!-- <ul> -->
-            <!-- <li>Close Menu</li>
-            <li>Food</li>
-            <li>About</li> -->
-           
-        <!-- </ul> -->
-        <div> MY FOOD</div>
-        
-        <div>ABOUT</div>
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#order">Order</a></li>
+        </ul>
+        <div class="icon">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
     </nav>
-    <div class="parent">
-        <div class="child">
-            <div>
-                <div>
-                    <img src="./sandwich.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        The Perfect Sandwich, A Real NYC Classic
-                    </b>
-                </div>
-                <div class="one">
-                    Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./steak.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        Let Me Tell You About This Steak
-                    </b>
-                </div>
-                <div class="one">
-                    Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./cherries.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        Cherries, interrupted
-                    </b>
-                </div>
-                <div class="one">
-                    Lorem ipsum text praesent tincidunt ipsum lipsum.
+<div class="main">
 
-                    What else?
-                </div>
+<div class="main_text">
+    <h1>Get Fresh <span>Food</span><br> in a Easy Way</h1>
+</div>
+<div class="main_image">
+    <img src="image/main_img.png" alt="">
+</div>
+
+
+</div>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempora similique quisquam nesciunt labore, molestias illum cum magnam saepe quae delectus nobis ullam aspernatur corporis natus aliquid nam voluptatum. Iure!</p>
+<div class="main_btn">
+    <a href="#"> Order Now</a>
+    <i class="fas fa-angle-right"></i>
+</div>
+
+
+</section>
+
+
+
+
+<!-- second section -->
+
+<div class="about" id="about">
+
+<div class="about_main">
+    <div class="image">
+        <img src="image/Food-Plate.png" alt="">
+    </div>
+<div class="about_text">
+
+    <h1><span>About</span>Us</h1>
+    <h3>Why Choose us?</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, pariatur voluptate. In accusamus ex iste laudantium debitis quam quas alias saepe, ut sequi sit officia necessitatibus perspiciatis earum blanditiis! Ipsum?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni harum sapiente consequuntur doloremque? Non quidem voluptatem officia minima in obcaecati molestias, tempora perferendis ad cumque, nulla sapiente. Voluptates, impedit!
+        Lorem ipsum dolor sit amet
+    </p>
+</div>
+
+</div>
+
+<a href="#" class="about_btn">Order Now</a>
+
+
+</div>
+
+
+
+<!-- menu -->
+
+<div class="menu" id="menu">
+
+
+    <h1>Our <span>Menu</span></h1>
+
+
+
+
+
+
+    <div class="menu_box">
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/buger.jpg" alt="">
             </div>
-            <div>
-                <div>
-                    <img src="./wine.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        Once Again, Robust Wine and Vegetable Pasta
-                    </b>
-                </div>
-                <div class="one">
-                    Lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
             </div>
-        </div>
-        <div class="child">
-            <div>
-                <div>
-                    <img src="./popsicle.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        All I Need Is a Popsicle
-                    </b>
-                </div>
-                <div class="one">
-                    Lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./salmon.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        Salmon For Your Skin
-                    </b>
-                </div>
-                <div class="one">
-                    Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./sandwich (1).jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        The Perfect Sandwich, A Real Classic
-                    </b>
-                </div>
-                <div class="one">
-                    Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./croissant.jpg" />
-                </div>
-                <div class="two">
-                    <b>
-                        Le French
-                    </b>
-                </div>
-                <div class="one">
-                    Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
-                </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
             </div>
         </div>
 
-        <div class="pagination">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">&raquo;</a>
+<!-- 2nd one -->
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/pasta.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 3rd one -->
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/Spanchi.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 4th one -->
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/lasagna.webp" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 5th one -->
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/ice_cream.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+
+
+<!-- 6th one -->
+
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/chocolate.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+
+<!-- 7th one -->
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/pizza.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+
+<!-- 8th one -->
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/sandwich.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 9th one -->
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/Hot_dog.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 10th one -->
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/chocolate_Drink.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 11th one -->
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/biryani.webp" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+
+<!-- 12th one -->
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="image/juse.jpg" alt="">
+            </div>
+
+            <div class="small_card">
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+              <h2>Burger</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, doloribus distinctio. Incidunt nisi veniam, animi .</p>
+           
+           <h3>$20.00</h3>
+           <div class="menu-icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+           </div>
+           <a href="#" class="menu_btn"> Oredr Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Gallery -->
+
+
+<div class="gallery" id="gallery">
+    <h1>Our <span>Gallery</span></h1>
+
+    <div class="gallery_box">
+        <div class="gallery_image">
+            <img src="./image/gallary_1.jpg" alt="">
+
+
+            <h3>Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus, ullam amet exercitationem quaerat doloremque veniam officiis ad est, omnis dolores nesciunt culpa repudiandae facilis sint. Modi cum asperiores iusto.</p>
+        
+        <a href="#" class="gallery_btn">Order Now</a>
+        </div>
+
+
+        <div class="gallery_image">
+            <img src="./image/gallary_2.jpg" alt="">
+
+
+            <h3>Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus, ullam amet exercitationem quaerat doloremque veniam officiis ad est, omnis dolores nesciunt culpa repudiandae facilis sint. Modi cum asperiores iusto.</p>
+        
+        <a href="#" class="gallery_btn">Order Now</a>
+        </div>
+
+
+
+
+        <div class="gallery_image">
+            <img src="./image/gallary_3.jpg" alt="">
+
+
+            <h3>Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus, ullam amet exercitationem quaerat doloremque veniam officiis ad est, omnis dolores nesciunt culpa repudiandae facilis sint. Modi cum asperiores iusto.</p>
+        
+        <a href="#" class="gallery_btn">Order Now</a>
+        </div>
+
+
+
+        <div class="gallery_image">
+            <img src="./image/gallary_4.jpg" alt="">
+
+
+            <h3>Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus, ullam amet exercitationem quaerat doloremque veniam officiis ad est, omnis dolores nesciunt culpa repudiandae facilis sint. Modi cum asperiores iusto.</p>
+        
+        <a href="#" class="gallery_btn">Order Now</a>
+        </div>
+
+
+        <div class="gallery_image">
+            <img src="./image/gallary_5.jpg" alt="">
+
+
+            <h3>Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus, ullam amet exercitationem quaerat doloremque veniam officiis ad est, omnis dolores nesciunt culpa repudiandae facilis sint. Modi cum asperiores iusto.</p>
+        
+        <a href="#" class="gallery_btn">Order Now</a>
+        </div>
+
+
+        <div class="gallery_image">
+            <img src="./image/gallary_6.jpg" alt="">
+
+
+            <h3>Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus, ullam amet exercitationem quaerat doloremque veniam officiis ad est, omnis dolores nesciunt culpa repudiandae facilis sint. Modi cum asperiores iusto.</p>
+        
+        <a href="#" class="gallery_btn">Order Now</a>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Review -->
+
+
+<div class="review" id="review">
+    <h1>Customer <span>Review</span></h1>
+
+   <div class="review_box">
+    <div class="review_card">
+        <div class="review_profile">
+            <img src="image/review_1.png" alt="">
+        </div>
+
+
+
+        <div class="review_text">
+            <h2 class="name">Jhon Deo</h2>
+            <div class="review_icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+
+        <div class="review_social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae odio architecto perspiciatis suscipit, est minus qui in veniam iusto dolores? Blanditiis voluptatum vitae illo. Tempore sunt inventore labore veritatis.   </p>
+
         </div>
     </div>
 
 
-    <div class="parent2">
-        <div class="parent3">
-            <div class="child7"><b>my food</b></div>
-            <div class="child6">
 
-                <h2>
-                    About Me, The Food Man
-                </h2>
 
-            </div>
-            <div class="child2">
-                <img src="./chef.jpg">
-            </div>
-            <div class="child3"><b>
-                    <h4>I am Who I Am!</h4>
-                </b>
-            </div>
-            <div class="child4"><i>
-                    <h4>With Passion For Real, Good Food</h4>
-                </i>
-            </div>
-            <div class="child5">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and
-                an
-                interest of
-                lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus
-                ut
-                rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-                congue
-                gravida diam non fringilla.
 
-            </div>
-        </div>
-    </div>
-    <div class="parent5">
-    <div class="parent4">
-        <div>
-            <h1>FOOTER</h1>
 
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-                congue
-                gravida diam non fringilla.</p>
 
-            <p>Powered by w3.css</p>
-        </div>
-        <div>
-            <h1>BLOG POSTS</h1>
-            <div class="hari">
-                <img src="./workshop.jpg">
-                <p>
-                    Lorem
-                    Sed mattis nunc
 
-                </p>
-            </div>
-            <div class="hari2">
-                <img src="./gondol.jpg">
-                <p>
-                    Ipsum
-                    Praes tinci sed
-                </p>
-            </div>
-
+    <div class="review_card">
+        <div class="review_profile">
+            <img src="image/review_2.png" alt="">
         </div>
 
-        <div>
-            <h1>POPULAR TAGS</h1>
-            <div class="nani">
-                <button>travel</button>
-                <button>New york</button>
-                <button>Dinner</button>
-                <button>salman</button>
-                <button>frans</button>
-                <button>drinks</button>
-                <button>ideas</button>
-                <button>flavers</button>
-                <button>cusine</button>
-                <button>chiken</button>
-                <button>dressing</button>
-                <button>fried</button>
-                <button>fish</button>
-                <button>duck</button>
 
+
+        <div class="review_text">
+            <h2 class="name">Jhon Deo</h2>
+            <div class="review_icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
             </div>
+
+        <div class="review_social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae odio architecto perspiciatis suscipit, est minus qui in veniam iusto dolores? Blanditiis voluptatum vitae illo. Tempore sunt inventore labore veritatis.   </p>
 
         </div>
     </div>
+
+
+
+
+
+
+    <div class="review_card">
+        <div class="review_profile">
+            <img src="image/review_3.png" alt="">
+        </div>
+
+
+
+        <div class="review_text">
+            <h2 class="name">Jhon Deo</h2>
+            <div class="review_icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+
+        <div class="review_social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae odio architecto perspiciatis suscipit, est minus qui in veniam iusto dolores? Blanditiis voluptatum vitae illo. Tempore sunt inventore labore veritatis.   </p>
+
+        </div>
     </div>
 
 
@@ -390,14 +621,101 @@
 
 
 
+    <div class="review_card">
+        <div class="review_profile">
+            <img src="image/review_4.png" alt="">
+        </div>
+
+
+
+        <div class="review_text">
+            <h2 class="name">Jhon Deo</h2>
+            <div class="review_icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+
+        <div class="review_social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae odio architecto perspiciatis suscipit, est minus qui in veniam iusto dolores? Blanditiis voluptatum vitae illo. Tempore sunt inventore labore veritatis.   </p>
+
+        </div>
+    </div>
 
 
 
 
+   </div>
 
 
 
+</div>
 
+
+
+<!-- Order -->
+
+
+
+<div class="order" id="order">
+    <h1><span>Order</span>Now</h1>
+
+    <div class="order_main">
+        <div class="order_image">
+        
+             <img src="image/order_image.png" alt="">
+        </div>
+
+
+        <form>
+
+            <div class="input">
+                <p>Name</p>
+                <input type="text" placeholder="your name">
+            </div>
+            <div class="input">
+                <p>Email</p>
+                <input type="text" placeholder="your name">
+            </div>
+
+            <div class="input">
+                <p>Number</p>
+                <input type="text" placeholder="your name">
+            </div>
+
+            <div class="input">
+                <p>what is your Order</p>
+                <input type="text" placeholder="your name">
+            </div>
+            
+            <div class="input">
+                <p>How Much You Rate Us</p>
+                <input type="text" placeholder="your name">
+            </div>
+            <div class="input">
+                <p>Adress</p>
+                <input type="text" placeholder="your name">
+            </div>
+            <a href="#" class="order_btn">Order Now</a>
+
+        </form>
+    </div>
+
+
+
+</div>
+
+
+
+    
+   
+    
 </body>
-
 </html>
